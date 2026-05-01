@@ -187,24 +187,100 @@ ORDER BY cohort_month, month_number;
 
 ---
 
-## 🛠️ Tools Used
 
-* MySQL
-* SQL (CTEs, Window Functions, Aggregations)
+## 📊 Customer Behavior & Revenue Analysis Dashboard (Power BI)
+
+
+## 🎯 Key Objectives
+
+* Understand **customer order frequency distribution**
+* Identify **repeat vs new customer trends**
+* Analyze **revenue contribution by customer segments**
+* Detect **loss-making products**
+* Provide **actionable business insights**
+
+---
+
+## 📊 Dashboard Highlights
+
+### 👥 Customer Insights
+
+* Total Customers: **795**
+* Maximum Orders by a Customer: **47**
+* Average Orders per Customer: **32.39**
 
 ---
 
-## 🚀 Next Steps
+### 🔁 Customer Behavior
 
-* Build Power BI dashboard
-* Visualize:
-
-  * Revenue trends
-  * Customer retention
-  * Product performance
-* Add business storytelling
+* ~**97% customers are repeat customers**
+* Strong indication of **high customer retention**
+* Majority of customers fall in the **31–40 order range**
 
 ---
+
+### 📦 Order Frequency Analysis
+
+* Most customers belong to the **medium-to-high frequency segment**
+* Very few customers fall into the low-frequency group
+* Indicates a **loyal and engaged customer base**
+
+---
+
+### 💰 Revenue Insights
+
+* Higher order-frequency customers contribute **disproportionately more revenue**
+* Even though they are fewer in number, their **business impact is significant**
+* Opportunity to **target and retain high-frequency users**
+
+---
+
+### ⚠️ Loss Analysis
+
+* Identified multiple products with **negative profit margins**
+* Indicates:
+
+  * Possible **over-discounting**
+  * **High cost vs selling price imbalance**
+* These products are **key drivers of overall profitability loss**
+
+---
+
+## 💡 Key Business Insights
+
+* The business demonstrates **exceptionally high retention (~97%)**, indicating strong customer loyalty
+* A large portion of customers consistently place **31–40 orders**, forming the core user base
+* **High-frequency customers generate the majority of revenue**, making them critical for growth strategy
+* A subset of products contributes to **consistent losses**, highlighting opportunities for pricing and cost optimization
+
+---
+
+## 🛠 Tools & Technologies
+
+* **SQL (MySQL)** → Data extraction & aggregation
+* **Power BI** → Data modeling & visualization
+* **DAX** → Measures & business logic
+
+---
+
+## 🚀 Key Features
+
+* Customer segmentation based on order frequency
+* Revenue distribution by customer behavior
+* Repeat vs new customer analysis
+* Loss-making product identification
+
+---
+
+## 📌 Conclusion
+
+This dashboard provides a **holistic view of customer behavior and business performance**, enabling better decision-making in:
+
+* Customer retention strategies
+* Revenue optimization
+* Product-level profitability improvements
+
+  
 
 ## 📌 Author
 
